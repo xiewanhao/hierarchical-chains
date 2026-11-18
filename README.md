@@ -1,5 +1,14 @@
 # Hierarchical Chains · 分层链路
 
+## 最新交付 · RoboCasa V11
+
+- [V11 代码和结果说明](V11.md) · [冻结代码 ZIP](V11_CODE.zip)
+- [31 例逐项结果](V11_RESULTS.csv) · [文件 SHA-256](V11_MANIFEST.json)
+- [完整原始证据（GitHub Release）](https://github.com/xiewanhao/hierarchical-chains/releases/tag/v11-20261118)
+
+V11 登记检查完成 31 例，通过 29 例，未通过 2 例。共 66,699 次原生物理步和 46 次真实选择器调用。下文保留此前 R49/R50 历史归档的说明。
+
+
 Research code for a RoboCasa system with five computation chains and C4–C12 components.
 
 ## Source code
@@ -13,7 +22,7 @@ unzip ALL_CODE_SNAPSHOTS.zip -d hierarchical-chains-source
 cd hierarchical-chains-source/code/r49
 ```
 
-The current runtime version is **R49**. **R50 qualification staging is experimental and has no reference application deployed.** Independent current-candidate qualification Q and the explicit application transaction remain unimplemented.
+The earlier historical archive identifies **R49** as its runtime reference. **R50 qualification staging is experimental and has no reference application deployed.** Independent current-candidate qualification Q and the explicit application transaction remain unimplemented.
 
 ## Five computation chains
 
@@ -61,7 +70,7 @@ Newest isolated additions in `code/r50_qualification_staging/five_chains/envs/`:
 
 The archived files reference the original RoboCasa 1.0.1, Robosuite 1.5.2, MuJoCo 3.3.1 environments, robot assets, original selector adapter and official pretrained GraspGen dependencies. External environments and model weights are not included. Historical absolute paths require configuration for another machine. Standalone diagnostic scripts also require their registered evidence inputs from the separately retained local evidence package.
 
-This repository publishes code. The large native trajectories and full experiment-log package are retained separately. No new experiment, training, model-weight change or control deployment was performed for this upload.
+The historical snapshot archive above contains code. For the V11 native trajectories and experiment logs, see the release linked at the top. No new experiment, training, model-weight change or control deployment was performed for this upload.
 
 Snapshot directories: r12, r14, r15, r16, r17, r18, r19, r20, r21, r22, r23, r24, r25, r26, r27, r28, r29, r30, r31, r32, r33, r34, r35, r36, r37, r38, r39, r40, r41, r42, r43, r44, r45, r46, r47, r48, r49, r50_bridge_staging, r50_dependency_staging, r50_lifecycle_staging, r50_native_source_staging, r50_preview_staging, r50_qualification_staging.
 

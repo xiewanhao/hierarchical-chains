@@ -1,0 +1,30 @@
+{
+  "destination": "xiewanhao/hierarchical-chains",
+  "frozen_source_manifest_sha256": "3ddc8b1f58dd64f13bd75aeaf45c71a49372218e68f6d05bb48aadd1ed57c69c",
+  "frozen_source_files": 162,
+  "completed": 31,
+  "passed": 29,
+  "unpassed": 2,
+  "native_steps": 66699,
+  "actual_model_calls": 46,
+  "joint_same_tick_button_lowload": "skipped, excluded from passed checks",
+  "files": {
+    "robocasa-v11-original20-evidence.zip": {
+      "bytes": 655217906,
+      "sha256": "f7380f8f743d45302b9abbb14d0b8c8eed7e70bb9902da7a3b26f1372c5f816d"
+    },
+    "robocasa-v11-remaining11-evidence.zip": {
+      "bytes": 503887403,
+      "sha256": "44652376258d6321d653eb0b4f2b9e8d2f2b06a79df6ee93f13e982dafed4515"
+    },
+    "V11_CODE.zip": {
+      "bytes": 1336543,
+      "sha256": "c488a6cc508143c5466fefd49b6aaa79907c641264e6a19f3523407d49eee5b6"
+    },
+    "V11_RESULTS.csv": {
+      "bytes": 5578,
+      "sha256": "b1068b9eff47ab8d466d4eb114a918c3164f4e7a5352ac05eae1317a503b0c0c"
+    }
+  },
+  "evidence_scope": "All 31 final registered scientific case directories. Excludes generated caches, lock files and outer server administration. Raw scientific files retain original bytes."
+}
